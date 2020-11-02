@@ -2,20 +2,14 @@
 // Created by xyx on 10/29/20.
 //
 
-#ifndef _CONSTRUCT_H
-#define _CONSTRUCT_H
+#ifndef _SIMPLEALLOCATOR_H
+#define _SIMPLEALLOCATOR_H
 
 #include <cstddef>
 #include <stdint-gcc.h>
 #include <new>
-namespace sa
+namespace ma
 {
-    template<typename>
-    class simple_allocator;
-
-    template<>
-    class simple_allocator<void>;
-
     template<typename T>
     class simple_allocator
     {
@@ -61,9 +55,14 @@ namespace sa
             ::operator delete(p);
         }
 
-        void construct(pointer p, )
+        void construct(pointer p, const T& value)
         {
+            ::new((void *)p) T(value);
+        }
 
+        void destroy(pointer p)
+        {
+            p->~T();
         }
 
         size_type max_size() const noexcept
@@ -75,8 +74,18 @@ namespace sa
 #endif
         }
 
+        pointer address(reference x)
+        {
+            return (pointer)&x;
+        }
+
+        const_pointer  const_address(const_reference x)
+        {
+            return (const_pointer)&x;
+        }
+
     };
 }
 
 
-#endif //_CONSTRUCT_H
+#endif //_SIMPLEALLOCATOR_H
