@@ -1,0 +1,7 @@
+/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/CMakeFiles/rebuild_cache.dir
+/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/CMakeFiles/edit_cache.dir
+/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/CMakeFiles/test.dir

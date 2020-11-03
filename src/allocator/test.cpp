@@ -4,3 +4,4 @@
 #include <iostream>
 #include<vector>
 #include "simpleallocator.h"
+#include "mallocallocator.h"

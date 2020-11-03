@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\allocator\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/libtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/gitproject/SGI-STL_oldversion"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/libtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xyx/Documents/SourceCode/gitproject/SGI-STL_oldversion"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/xyx/Documents/SourceCode/gitproject/linux_other/cmake-build-debug/src/allocator/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xyx/Documents/SourceCode/gitproject/linux_other/src/allocator/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/xyx/Documents/SourceCode/gitproject/linux_other/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xyx/Documents/SourceCode/gitproject/linux_other/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/xyx/Documents/SourceCode/gitproject/linux_other/src/allocator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\allocator\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

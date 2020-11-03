@@ -41,7 +41,7 @@ namespace ma
         ~simple_allocator() noexcept { }
         //init and des
 
-        pointer allocate(size_type n, const void* = static_cast<const void*>(0) )
+        pointer allocate(size_type n )
         {
             if(n > this->max_size())
             {
