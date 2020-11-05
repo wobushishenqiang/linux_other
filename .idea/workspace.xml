@@ -30,13 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c96a34-6c79-479c-a9db-5e9f539fa725" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/allocator/malloClass.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/allocator/mallocallocator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simplemalloc/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simplemalloc/simpleallocator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simplemalloc/test.cpp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allocator/poolallocator.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/allocator/poolallocator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/allocator/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/allocator/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +69,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +79,10 @@
       <option name="presentableId" value="Default" />
       <updated>1604349913513</updated>
       <workItem from="1604349920786" duration="8180000" />
-      <workItem from="1604369939273" duration="8804000" />
+      <workItem from="1604369939273" duration="9872000" />
+      <workItem from="1604415402046" duration="389000" />
+      <workItem from="1604415926503" duration="13925000" />
+      <workItem from="1604594335567" duration="1884000" />
     </task>
     <servers />
   </component>
@@ -107,10 +102,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="353" width="586" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604375824167">
+    <state x="698" y="353" width="634" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604414293473">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="698" y="353" width="586" height="408" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604375824167" />
+    <state x="698" y="353" width="634" height="408" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604414293473" />
     <state x="778" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1604350575874">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -123,5 +118,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="523" y="217" width="936" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604409366386" />
+    <state x="659" y="259" width="672" height="160" key="search.everywhere.popup" timestamp="1604416063663">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="160" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1604416063663" />
   </component>
 </project>
