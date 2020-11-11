@@ -30,9 +30,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c96a34-6c79-479c-a9db-5e9f539fa725" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_sort/list_mergesort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_sort/listnode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_sort/sortTest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/allocator/poolallocator.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/allocator/poolallocator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/allocator/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/allocator/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tcmalloc-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
@@ -67,6 +68,11 @@
     <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -82,7 +88,8 @@
       <workItem from="1604369939273" duration="9872000" />
       <workItem from="1604415402046" duration="389000" />
       <workItem from="1604415926503" duration="13925000" />
-      <workItem from="1604594335567" duration="1884000" />
+      <workItem from="1604594335567" duration="4304000" />
+      <workItem from="1604758852873" duration="10353000" />
     </task>
     <servers />
   </component>
@@ -106,18 +113,18 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="698" y="353" width="634" height="408" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604414293473" />
-    <state x="778" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1604350575874">
+    <state x="778" y="310" width="426" height="493" key="FileChooserDialogImpl" timestamp="1604626642952">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="778" y="310" width="426" height="493" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604350575874" />
+    <state x="778" y="310" width="426" height="493" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1604626642952" />
     <state x="476" y="188" width="1039" height="737" key="SettingsEditor" timestamp="1604413733076">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="476" y="188" width="1039" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1604413733076" />
-    <state x="523" y="217" width="936" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604409366386">
+    <state x="523" y="217" width="936" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604597996648">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="523" y="217" width="936" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604409366386" />
+    <state x="523" y="217" width="936" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1604597996648" />
     <state x="659" y="259" width="672" height="160" key="search.everywhere.popup" timestamp="1604416063663">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
