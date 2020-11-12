@@ -30,11 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c96a34-6c79-479c-a9db-5e9f539fa725" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/list_sort/list_mergesort.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list_sort/listnode.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list_sort/sortTest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_sort/list_fastsort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list_sort/list_mergesort_stl.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/allocator/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/allocator/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list_sort/sortTest" beforeDir="false" afterPath="$PROJECT_DIR$/src/list_sort/sortTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list_sort/sortTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/list_sort/sortTest.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +65,14 @@
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -90,6 +90,7 @@
       <workItem from="1604415926503" duration="13925000" />
       <workItem from="1604594335567" duration="4304000" />
       <workItem from="1604758852873" duration="10353000" />
+      <workItem from="1605140971435" duration="10140000" />
     </task>
     <servers />
   </component>

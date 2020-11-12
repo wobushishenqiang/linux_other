@@ -6,8 +6,12 @@
 #include <iostream>
 #include <vector>
 #include <random>
+#include <time.h>
 #include "list_mergesort.h"
+#include "list_mergesort_stl.h"
+#include "list_fastsort.h"
 using namespace std;
+
 void sortVerify(ListNode *head)
 {
     ListNode * cur = head;
@@ -42,21 +46,37 @@ ListNode* genLink(int n = 10)
             head = cur;
         if(nullptr != pre)
             pre->next = cur;
-        cout<< it << " ";
+        //cout<< it << " ";
         pre = cur;
     }
-    cout<< endl;
+    //cout<< endl;
     return head;
 }
+
+void listSort_test(ListNode*(*func)(ListNode*),int n = 10)
+{
+    clock_t start,end;
+    double duration;
+    ListNode *head = genLink(n);
+    start = clock();
+    ListNode *res = func(head);
+    end = clock();
+    sortVerify(res);
+    duration = (double)(end - start);
+    cout<< " " << duration << endl;
+}
+
 int main(int argc, char *argv[])
 {
-    ListNode *head = genLink();
-    printList(head);
-    ListNode *res = mergeSort(head);
-    printList(res);
-    sortVerify(res);
-    delete(head);
-    delete(res);
+    cout<< "mergeSort_stl" << endl;
+    listSort_test(mergeSort_stl, 1000);
+
+    cout<< "mergeSort" << endl;
+    listSort_test(mergeSort, 1000);
+
+    cout<< "fastSort" << endl;
+    listSort_test(fastSort, 1000);
+
     return 0;
 }
 
